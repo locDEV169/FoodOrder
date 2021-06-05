@@ -1,0 +1,25 @@
+.dishes .main .container .row img{
+    max-width: 540px;
+    max-height: 450px;
+    width: fit-content;
+}
+
+.dishes .main .container .row .content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.dishes .main .container .row .information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.bg-primary{
+    background-color: #6908FC;
+}
+.bg-danger{
+    background-color:#E9A0D0!important;
+}
