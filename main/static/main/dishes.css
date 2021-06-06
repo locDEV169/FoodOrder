@@ -15,8 +15,7 @@
 }
 
 .container-review{
-    width: 40%;
-    max-height: 1000px;
+    width: 35%;
     background-color: white;
 }
 
@@ -24,11 +23,23 @@
 }
 
 .area-text-review{
-    max-width: 1000px;
-    min-height: 300px;
+    min-height: 200px;
+    max-height: 290px;
     width: 100%;
     overflow-y: scroll;
     border-top: 1px solid black;
+}
+
+.area-text-review::-webkit-scrollbar{
+     width: 2px;
+}
+
+.area-text-review::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #858796;
 }
 
 .user_details{
@@ -68,16 +79,20 @@
 }
 
 .detail-food{
-    width: 40%;
+    width: 50%;
     background-color: white;
 }
 
 .img-fluid,.area-dish-image{
     width: 100%;
+    margin-top: 0px !important;
 }
 
 .no-review{
     text-align: center;
-    margin: 150px 0;
+    margin: auto 0;
 }
 
+.text-center{
+    margin: 10px auto;
+}

@@ -5,16 +5,17 @@
 <div class="dishes">
     <!--Main layout-->
   <main class="detail-food">
+   <h1 class="text-center">Details</h1>
     <div class="container dark-grey-text">
       <div class="row wow fadeIn">
         <div class="area-dish-image">
           <img src="{{ item.image.url }}" class="img-fluid mt-4" alt="">
         </div>
-        <div class="col-md-6 mb-4 information">
+        <div class="information">
           <!--Content-->
           <div class="p-4 content">
             <div class="mt-0">
-                <h2><u>{{ item.title }}</u><span class="badge badge-{{ item.label_colour }} ml-2">{{ item.labels }}</span></h2>
+                <h2><u>{{ item.title }}</u></h2>
             </div>
             <div class="lead">
               {% if item.description %}
