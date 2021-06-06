@@ -1,12 +1,11 @@
-.dishes{
+.dishes-test{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 80%;
     background-color: white;
-    margin: 0 auto;
+    margin: 50px auto;
     position: relative;
-    top: 50px;
     border-radius: 30px;
 }
 

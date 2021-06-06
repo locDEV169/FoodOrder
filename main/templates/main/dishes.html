@@ -1,8 +1,8 @@
 {% extends "main/layout.html" %}
 
 {% block content %}
-<div style="background-color: #f5f5f5">
-<div class="dishes">
+
+<div class="dishes-test">
     <!--Main layout-->
   <main class="detail-food">
    <h1 class="text-center">Details</h1>
@@ -54,10 +54,10 @@
       {% csrf_token %}
       <div class="row">
         <div class="col-sm-11">
-          <input type="text" name="review" class="form-control" placeholder="Enter Your Review">
+          <input type="text" name="review" class="form-control" placeholder="Enter Your Review" style="word-break: break-all;word-wrap: break-word;">
           <input type="hidden" name="rslug" class="form-control" value="{{item.slug}}">
         </div>
-        <div class="col-sm-1">
+        <div class="col-sm-1" style="margin-top: 20px">
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
@@ -66,5 +66,5 @@
 
   </div>
 </div>
-</div>
+
 {% endblock content %}
